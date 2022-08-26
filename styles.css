@@ -90,6 +90,11 @@ body {
     line-height: 2rem;
 }
 
+.time ul li:hover {
+    cursor: pointer;
+    color: var(--Pale-Blue);
+}
+
 /* ----------------other card----------------- */
 
 .small-card {
@@ -108,6 +113,11 @@ body {
     padding: 1rem;
 }
 
+.card-desc:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+
 .title {
     font-size: 15px;
     width: 9rem;
@@ -119,6 +129,7 @@ body {
 .title img {
     height: .3rem;
     margin-top: 7px;
+    cursor: pointer;
 }
 
 .hours {
