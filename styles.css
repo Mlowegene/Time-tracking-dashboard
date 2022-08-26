@@ -162,3 +162,105 @@ body {
     background-image: url(./images/icon-self-care.svg);
 }
 
+/* ---------------------media queries--------------------- */
+
+@media screen and (max-width: 375px) {
+ 
+    .container {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-rows: 8.25rem 7rem 7rem 7rem 7rem 7rem 7rem;
+        grid-template-columns: 11rem;
+        grid-gap: 20px;
+        justify-content: center;
+    }
+
+    .user-card {
+        grid-row: 1 / 2;
+    }
+
+    .user-info-card {
+        height: 5rem;
+        display: flex;
+        padding-top: 1rem;
+    }
+
+    .image {
+        padding: 0rem .2rem 1rem 1rem ;
+    }
+    
+    .image img {
+        width: 2.5rem;
+    }
+
+    .desc {
+        margin-top: .4rem;
+        margin-left: .5rem;
+    }
+    
+    .user-card p {
+        margin: 0 0rem;
+    }
+
+    .user-card:first-child {
+        font-size: 10px;
+    }
+    
+    .name {
+        font-size: .8rem;
+    }
+    .time {
+        height: 4rem;
+        width: 11rem;
+        padding: 1rem;
+    }
+    
+    .time ul li {
+        line-height: 1rem;
+        float: left;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+
+    /* ----------------other cards---------- */
+
+    .card-desc {
+        width: 11rem;
+        height: 5.23rem;
+        margin-top: 1.8rem;
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 12px;
+        width: 9rem;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .title img {
+        height: .25rem;
+        margin-top: 5px;
+    }
+
+    .hour {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hours {
+        font-size: .8rem;
+        font-weight: 200;
+        margin: .8rem 0 .6rem 0;
+    }
+    
+    .week {
+        font-size: 10px;
+        margin: 1.1rem 0 0 .4rem;
+    }
+}
+
+
+
+
